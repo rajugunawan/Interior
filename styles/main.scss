@@ -1,0 +1,243 @@
+body {
+  background-color: #fff;
+  a {
+    font-family: open sans;
+    color: #938071;
+  }
+}
+
+.header {
+  .container {
+    .row {
+      background-color: #fff;
+      .col-md-7 {
+        .container {
+          .nav-logo {
+            .navbar-brand {
+              margin-top: 50px;
+              font-family: Rozha One;
+              font-size: 26px;
+            }
+          }
+          .col-md-8 {
+            margin-top: 240px;
+            h2 {
+              font-family: Open Sans;
+              font-weight: bold;
+              span {
+                color: #afa798;
+              }
+            }
+            p {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+      .col-md-5 {
+        padding-top: 50px;
+        background-color: #f3ede9;
+        height: 720px;
+
+        .navbar {
+          .collapse {
+            .navbar-nav {
+              .nav-item {
+                font-size: 15px;
+
+                .disabled {
+                  border: 1px solid #938071;
+                  border-radius: 35px;
+                  padding-right: 20px;
+                  padding-left: 20px;
+                }
+              }
+            }
+          }
+        }
+        .img {
+          img {
+            width: 100%;
+          }
+          margin-top: 150px;
+          width: 140%;
+          margin-left: -230px;
+        }
+      }
+    }
+  }
+}
+
+.section {
+  margin-top: 200px;
+  .container {
+    .row {
+      .col-md-5 {
+        .row {
+          .gambar1 {
+            .row {
+              img {
+                width: 100%;
+                margin-top: 10px;
+              }
+            }
+          }
+          .gambar2 {
+            img {
+              width: 100%;
+              height: 97%;
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+
+      .col-md-7 {
+        margin-top: 100px;
+        span {
+          color: #afa798;
+        }
+      }
+    }
+  }
+}
+
+.section-popular {
+  margin-top: 180px;
+  .container {
+    h1 {
+      span {
+        color: #afa798;
+      }
+    }
+    .row {
+      margin-top: 50px;
+      .col-md-6 {
+        img {
+          width: 100%;
+        }
+        .text {
+          p {
+            margin-top: 30px;
+            font-size: 16px;
+          }
+          h3 {
+            margin-top: -10px;
+          }
+          .description {
+            margin-top: 0px;
+            font-size: 18px;
+            width: 75%;
+          }
+        }
+        .btn-see-more {
+          background-color: #f3ede9;
+          color: #afa798;
+        }
+      }
+    }
+  }
+}
+
+.section-image {
+  margin-top: 217px;
+  .container {
+    .row {
+      .col-md-7 {
+        background-color: #c4c4c4;
+        height: 596px;
+        h1 {
+          font-size: 34px;
+          margin-top: 150px;
+          margin-left: 10%;
+          span {
+            color: #afa798;
+          }
+        }
+        p {
+          margin-left: 10%;
+          margin-top: 30px;
+        }
+
+        .images {
+          margin-left: 9%;
+          .row {
+            .first {
+              img {
+                width: 50%;
+              }
+            }
+            .second {
+              img {
+                width: 50%;
+                margin-left: -55%;
+                margin-top: 5px;
+              }
+            }
+          }
+        }
+      }
+      .col-md-5 {
+        background-color: #c4c4c4;
+        border-bottom: 596px solid #afa798;
+        border-left: 170px solid transparent;
+
+        height: 200px;
+        width: 125px;
+        img {
+          width: 70%;
+          margin-top: 100px;
+          margin-left: -18%;
+        }
+        h1 {
+          margin-top: -235px;
+          font-size: 34px;
+          font-family: Open Sans;
+          margin-left: 10%;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.page-footer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  .container {
+    .row {
+      .col-md-4 {
+        .font-weight-bold {
+          font-family: Rozha One;
+          font-size: 20px;
+        }
+        p {
+          font-family: Open Sans;
+          font-size: 14px;
+        }
+      }
+      .col-md-2 {
+        .font-weight-bold {
+          font-family: Open Sans;
+          font-size: 20px;
+        }
+        .row {
+          .col {
+            img {
+              margin: 3%;
+            }
+          }
+        }
+        ul {
+          li {
+            a {
+              font-size: 14px;
+              font-family: Open Sans;
+              color: #1b1c22;
+            }
+          }
+        }
+      }
+    }
+  }
+}
